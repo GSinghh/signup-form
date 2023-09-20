@@ -5,10 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup Page</title>
     <link href="style.css" type = "text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Open+Sans:wght@300&family=Source+Code+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class = "wallpaper-sidebar">
-        
+    <div class = "container">
+            <div class = "wallpaper-sidebar">
+                <div class = "wallpaper-logo">
+                    <h1 class = wallpaper-text>Minimalism.io</h1>
+                </div>
+            </div>
+        <div class = "right">
+            <div class = "upper-text">
+                <h2>Welcome to the world of Minimalist Images, where simplicity meets creativity. Join our community of artists, designers, and enthusiasts to start creating and sharing your own minimalist masterpieces. 
+                    Sign up today and experience the power of minimalism in visual art.</h2>
+            </div>
+            <div class = "middle-text">
+                <h2 class = "signup-title">Sign-Up Below!</h2>
+                    <form action="#" method="post">
+                        <div class = "form-container">
+                            <label for="first-name">First Name</label>
+                            <input type = "text" name="first-name" id = "first-name" required>
+
+                            <label for="last-name">Last Name</label>
+                            <input type = "text" name="last-name" id = "last-name">
+
+                            <label for="email">Email</label>
+                            <input type = "text" name="email" id = "email">
+
+                            <label for="phone-number">Phone Number</label>
+                            <input type = "text" name="phone-number" id = "phone-number">
+
+                            <label for="password">Password</label>
+                            <input type = "text" name="password" id = "password">
+
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type = "text" name="confirm-password" id = "confirm-password">
+                        </div>
+                    </form>
+            </div>
+            <div class = "bottom-text">
+                <button class = "sign-up-button">Sign Up Here</button>
+                <h3 class = "log-in-text">Already have an account? <a href = "#" target="_self">Log In</a></h3>
+            </div>
+        </div>
     </div>
 </body>
 </html>
